@@ -62,7 +62,7 @@ def output(ff_data):
             deeps = ff_data[fflist[x]][list(ff_data[fflist[x]])[y]][0]
             classjob = list(ff_data[fflist[x]])[y]
             if percentile < 20:
-                say = say + classjob + " with " + str(deeps) + " DPS and " + percent + ' percentile. __***SCRUB ALERT!!!***__ \n'
+                say = say + classjob + " with " + str(deeps) + " DPS and " + percent + ' percentile. ' + Low_percentile_warning + '\n'
             else:
                 say = say + classjob + " with " + str(deeps) + " DPS and " + percent + ' percentile. \n'
         em.add_field(name = bossname, value = say, inline = False) #Addition of fields to the started embed
