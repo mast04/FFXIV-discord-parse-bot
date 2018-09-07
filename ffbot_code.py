@@ -187,13 +187,13 @@ async def on_message(message):
         try: #for multiple server entries
             msglist[3]
         except IndexError:
-            msglist = [msglist[0], msglist[1], msglist[2], "gilgamesh"]
+            msglist = [msglist[0], msglist[1], msglist[2], home_server]
 
         third = msglist[3]
 
         name = first + " " + second
         server = third
-        region = "NA"
+        region = home_region
 
         botwords = bot_talks(name, server, region)
 
