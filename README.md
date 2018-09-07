@@ -73,5 +73,6 @@ Finalizing and starting the Bot code:
     1. Change color as described above.
 1. The #the burn field is a message to shame bad percentiles.
     1. This should also stay in quotations for correct output.
+1. Save the changes!
     
-If you followed the whole guide up to this point, thanks for reading. Just start the code and enjoy. For windows, double clicking the code should open and start the python code.
+If you followed the whole guide up to this point, thanks for reading. Just start the code by running **ffbot_code.py** and enjoy. For windows, double clicking the code should open and start the python code.
