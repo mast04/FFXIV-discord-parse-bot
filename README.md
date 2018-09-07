@@ -28,10 +28,11 @@ however, Amazon AWS is also a nice and free (for the first 12 months) option but
 Of course, you can always start the code at your main computer whenever you need the bot to be alive.
 
 ### How to:
-Setting up python3: 
+Setting up python 3 and obtains the code: 
 1. Go to [python.org](http://python.org) and download the later release of Python 3.
 1. Install the following packages: [discord], [bs4], and [random]. As for [urllib.request], [json], and [requests], I believe they should come with the Python 3, but you are welcome to try to install them just to make sure you have them. 
     1. On Windows, in order to install the modules, open Powershell, which can be found with "Windows logo key + S", and use the following code `py -3 -m pip install discord` by replacind `discord` with the desired module names.
+1. Download the **Settings.py** and the **ffbot_code.py** files from this repository and keep them in the same folder.
     
 Obtaining a FFLog key:
 1. Register or log in on https://www.fflogs.com/
