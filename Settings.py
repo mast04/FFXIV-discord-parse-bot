@@ -2,6 +2,10 @@
 Discord_token = ''
 fflogkey = ''
 
+#default fflog inquiries
+home_server = "gilgamesh"
+home_region = "NA"
+
 #error colors
 Not_exist_color = 0x832133
 Not_available_color = 0x832133
