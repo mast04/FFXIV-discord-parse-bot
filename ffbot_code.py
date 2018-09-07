@@ -5,7 +5,7 @@ import json
 from bs4 import BeautifulSoup as BS
 import urllib.request
 import random
-from ffbot_data import *
+from Settings import *
 
 
 
