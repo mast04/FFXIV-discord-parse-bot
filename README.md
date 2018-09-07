@@ -7,7 +7,8 @@ without having to rely on 3rd party services
 
 Quick commands:
 1) fflog [first name] [last name] [server*] - Quickly pulls up a specific individual. The server field is optional if you searching in default server
-2) search [first name] [last name]
+2) search [search field] - To search the player through multiple server/regions
+3) /random - random number generatior from 1-999
 
 ### Notes
 This discord bot is one of my first coding works and, even though there dont seem to be any major bugs, 
