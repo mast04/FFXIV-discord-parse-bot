@@ -25,3 +25,6 @@ Not_a_selection_error_text = "Not an option!"
 #correct output color
 Data_output_color = 0x40DFF9
 Character_found_color = 0x4C9E0D
+
+#the burn
+Low_percentile_warning = '__***SCRUB ALERT!!!***__'
