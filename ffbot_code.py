@@ -108,7 +108,7 @@ async def on_message(message):
     if message.author == client.user:
         return
 
-    if message.content.startswith('search'):
+    if message.content.lower().startswith('search'):
         msglist = message.content.split()
         first = msglist[1]
 
@@ -179,7 +179,7 @@ async def on_message(message):
             else:
                 await client.send_message(message.channel, embed = discord.Embed(title = Not_a_selection_error_text, colour=Not_a_selection_error_color))
 
-    if message.content.startswith('fflog'):
+    if message.content.lower().startswith('fflog'):
         msglist = message.content.split()
         first = msglist[1]
         second = msglist[2]
@@ -199,7 +199,7 @@ async def on_message(message):
 
         await client.send_message(message.channel, embed=botwords)
 
-    if message.content.startswith('/random'):
+    if message.content.lower().startswith('/random'):
         fnum = str(random.randint(1, 999))
         await client.send_message(message.channel, fnum)
 
