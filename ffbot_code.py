@@ -81,7 +81,7 @@ def bot_talks (name, server, region):
         return(discord.Embed(title = Not_exist_text, colour=Not_exist_color))
     elif len(jdata) == 0:
         return(discord.Embed(title = Not_available_text, colour=Not_available_color))
-    elif len(jdata) == 1:
+    elif "hidden" in jdata:
         return(discord.Embed(title = Hidden_parse_error_text, colour=Hidden_parse_error_color))
     else:
         ff = fflogparse (jdata) #boss, job, dps, percent data
