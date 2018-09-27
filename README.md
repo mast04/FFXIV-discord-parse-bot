@@ -6,7 +6,7 @@ Purpose: To allow the user to personally own the Discord bot without having to r
 
 Quick commands:
 1) `fflog [first name] [last name] [server*]` - Quickly pulls up a specific individual. The server field is optional if you searching in default server
-2) `search [search field]` - To search the player through multiple server/regions
+2) `search [search field]` - To search the player through multiple server/regions. Respond with the designated number.
 3) `/random` - random number generatior from 1-999
 
 ### Notes
